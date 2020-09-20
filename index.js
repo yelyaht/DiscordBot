@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
 
-bot.login(NzU3MDExMjE2ODY1Njg5NzQx.X2aLog.Id0FiZ5TnOYDcRIWPTTUtX4MxpA);
+bot.login(TOKEN);
 
 bot.on('ready', () => {
   console.info(`Your savior is heerrree!}!`);
